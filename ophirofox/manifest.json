@@ -1,4 +1,4 @@
-{
+ {
   "manifest_version": 2,
   "name": "Ophirofox",
   "version": "2.5",
@@ -22,6 +22,7 @@
   ],
   "optional_permissions": [
       "webNavigation"
+    , "https://nouveau-europresse-com.gorgone.univ-toulouse.fr/*"
     , "https://2160010m-cas.esidoc.fr/*"
     , "https://nouveau-europresse-com.essec.idm.oclc.org/*"
     , "https://nouveau-europresse-com.ezproxy.univ-catholille.fr/*"
@@ -1030,6 +1031,10 @@
         {
           "name": "EM Lyon",
           "AUTH_URL": "https://em-lyon.idm.oclc.org/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=EMLYONT_1"
+        },
+        {
+          "name": "ENAC",
+          "AUTH_URL": "https://login.gorgone.univ-toulouse.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=CAPITOLET_4"
         },
         {
           "name": "ENSAM",
